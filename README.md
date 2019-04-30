@@ -1,2 +1,5 @@
-# node-simpleness-server
-一个超级简单的node server服务端口，提供简单HTML项目预览
+## Vue node server 代理开启
+
+# npm install 
+# npm run build 
+# npm start
