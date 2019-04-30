@@ -4,5 +4,5 @@
 + npm install 
 + npm start
 
-#state
+# state
 + project-directory 下面是你需要跑的HTML项目
