@@ -6,10 +6,10 @@ var app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 // 访问静态资源
-app.use(express.static(path.resolve(__dirname, '../project-directory')));
+app.use(express.static(path.resolve(__dirname, 'project-directory')));
 // 访问单页
 app.get('*', function (req, res) {
-    var html = fs.readFileSync(path.resolve(__dirname, '../project-directory/index.html'), 'utf-8');
+    var html = fs.readFileSync(path.resolve(__dirname, 'project-directory/index.html'), 'utf-8');
     res.send(html);
 });
 // var proxy = require('http-proxy-middleware');
